@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* General */
+*{
+    font-family: 'Cormorant Infant';
+    padding: 0px;
+    margin: 0px;
+    font-size: 19px;
+}
+body{
+    width: 100%;
+    display: block;
+}
+.fa{
+    color: #f5f5f5;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BackImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    font-family: 'Cinzel Decorative';
+}
+
+
+
+.Navbar{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.navbar{
+    height: 100%;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavLogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.NavLogo img{
+    border-radius: 50%;
+}
+.BrandName{
+    margin: 0px 0px 0px 10px;
+}
+.BrandName p{
+    color: #f5f5f5;
+    font-family: 'GFS Didot';
+    font-size: 30px;
+}
+.NavUl{
+    height: 108px;
+    width: 90px;
+}
+nav{
+    margin: 0px 10px 0px 0px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: #f5f5f5;
+}
+nav ul li{
+    font-size: 23px;
+    margin: 0px 0px 0px 0px;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.ProdRed{
+    width: 90px;
+    margin: 0px;
+    flex-wrap: nowrap;
+}
+.ProdRed ul{
+    display: block;
+    margin: 0px;
+}
+.ProdRed li{
+    border-bottom: solid 1px #6d6c6c;
+    width: 90px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top */
+.Top{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+}
+.Shoes{
+    background-image: url(./Images/Shoes.jpg);
+}
+.Watches{
+    background-image: url(./Images/Watches.jpg);
+}
+.Shoes,
+.Watches{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: -10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Front{
+    z-index: 3;
+}
+.ProdLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProdLink h2{
+    font-size: 90px;
+}
+.ProdLink p{
+    font-size: 50px;
+}
+
+/* Products */
+.ProdOvv{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 2cqw;
+}
+.BSLProd{
+    margin: 20px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BSLProd h2{
+    font-size: 50px;
+}
+.Prods{
+    width: 100%;
+    min-height: 34vh;
+    max-height: 320px;
+    box-shadow: 2px 2px 6px #6d6c6c;
+    overflow: hidden;
+}
+.ProdImg{
+    width: 100%;
+    height: 60%;
+}
+.Descrip{
+    width: 94%;
+    height: auto;
+    padding: 5% 3% 3% 3%;
+}
+.ProdName h1{
+    font-size: 30px;
+}
+.DescripPrice{
+    font-size: 20px;
+}
+
+/* Greeting */
+.Greetings{
+    height: 55vh;
+    width: 100%;
+    background-image: url(./Images/Watch5.jpg);
+    margin: 70px 0px 0px 0px;
+}
+
+/* Watches */
+.Watch{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+.WatchLeft,
+.WatchRight,
+.ShoeRight{
+    min-height: 100vh;
+}
+.WatchLeft{
+    width: 30%;
+}
+.WatchRight,
+.ShoeRight{
+    width: 100%;
+    display: block;
+}
+.WLNav{
+    width: 90%;
+    height: calc(100% - 3cqw);
+}
+.WLNavB{
+    width: 100%;
+    height: 55px;
+    border-bottom: solid 1px #1E1E1E;
+    justify-content: start;
+}
+.WLNavB p{
+    margin: 0px 0px 0px 10px;
+}
+.WatchDisp,
+.ShoeDisp,
+.ClothDisp{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    background-color: #F3F3F3;
+}
+.WatchDispDescrip{
+    width: 70%;
+    height: 70%;
+}
+.WatchDispDescrip h1{
+    font-size: 75px;
+}
+.WatchDispDescrip p{
+    font-size: 25px;
+}
+
+/* Footer */
+.Footer{
+    height: auto;
+    width: 100vw;
+    display: block;
+}
+.FtLinks{
+    height: 80px;
+    width: 100%;
+    background-color: #1E1E1E;
+    border-bottom: solid 2px #6d6c6c;
+    align-items: center;
+    display: flex;
+}
+.FTRedLinks{
+    display: flex;
+    margin: 0px 0px 0px 15px;
+    align-items: center;
+    justify-content: center;
+}
+.fa{
+    display: flex;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.FtText{
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Generral */
+.LapHid{
+    display: none;
+}
+.Hid{
+    display: none;
+}
+
+/* Contacts */
+.Cont{
+    width: 100%;
+    min-height: 95vh;
+}
+.Cont *{
+    color: #1E1E1E;
+}
+.ContAll{
+    margin: 20px 0px;
+    width: 40%;
+    min-height: 80vh;
+    background-color: rgb(243, 243, 243, 0.85);
+    border-radius: 8px;
+    flex-direction: column;
+}
+.ContAll h2{
+    padding: 20px;
+    text-align: justify;
+}
+.ContHead{
+    font-size: 35px;
+    text-align: center;
+    color: #1E1E1E;
+}
+form{
+    width: 80%;
+    padding: auto;
+}
+form .ContF{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0px 0px 0px;
+}
+form .ContFSubmt{
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px 0px 15px 0px;
+}
+.ContF label{
+    width: 30%;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #1E1E1E;
+    color: #F3F3F3;
+}
+.ContFImpt{
+    width: 70%;
+    border-radius: 0px 8px 8px 0px;
+}
+.ContF label,
+.ContFImpt{
+    height: 59px;
+    border: solid 0.5px #1E1E1E;
+}
+/* .ContFImpt:hover,
+.ContFImpt:active{
+    border: none;
+} */
+.ContSubmt{
+    height: 53px;
+    width: 100px;
+    color: #1E1E1E;
+    border: solid 2px #1E1E1E;
+    border-radius: 8px;
+}
+.ContFIcons{
+    padding: 25px 0px 0px 0px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+@media (max-width: 549px){
+    .Navbar{
+        height: 45px;
+    }
+    .NavLogo{
+        height: 35px;
+        width: 35px;
+    }.BrandName{
+        margin: 0px 0px 0px 5px;
+    }
+    .BrandName p{
+        font-size: 20px;
+    }
+    nav ul li{
+        font-size: 18px;
+        height: 45px;
+    }
+    .ProdRed li{
+        height: 45px;
+    }
+    .Top{
+        height: 35vh;
+    }
+    .Shoes,
+    .Watches{
+        height: 35vh;
+    }
+    .ProdLink h2{
+        font-size: 35px;
+    }
+    .ProdLink p{
+        font-size: 22px;
+    }
+
+    .BSLProd{
+        margin: 8px 0px 10px 0px;
+    }
+    .BSLProd h2{
+        font-size: 25px;
+    }
+    .ProdOvv{
+        width: 95vw;
+        grid-template-columns: 48% 48% 48%;
+        grid-gap: 4cqw;
+        overflow-x: scroll;
+    }
+    .ProdName h1{
+        font-size: 21px;
+    }
+    .DescripPrice{
+        font-size: 14px;
+    }
+    .Prods{
+        height: 30vh;
+    }
+
+    /* Greetings */
+    .Greetings{
+        height: 35vh;
+        margin: 25px 0px 0px 0px;
+    }
+
+    /* Watches */
+
+    /* Footer */
+    .FtLinks{
+        height: 50px;
+    }
+    .FtText p{
+        font-size: 16px;
+    }
+    .WatchRight,
+    .ShoeRight{
+        width: 100%;
+    }
+    .WatchDisp,
+    .ShoeDisp{
+        height: 50vh;
+    }
+    .WatchLeft,
+    .WatchRight,
+    .ShoeRight{
+        height: auto;
+    }
+    .WatchDispDescrip{
+        width: 80%;
+        height: auto;
+    }
+    .WatchDispDescrip h1{
+        font-size: 45px;
+    }
+    .WatchDispDescrip p{
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .ContAll{
+        width: 95%;
+    }
+    form .ContF{
+        margin: 10px 0px 5px 0px;
+    }
+    .ContF label,
+    .ContFImpt{
+        height: 46px;
+        font-size: 15px;
+    }
+    .ContSubmt{
+        height: 44px;
+    }
+    .ContAll h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1250px) and (min-width: 550px){
+    .Navbar{
+        height: 65px;
+    }
+    .ProdOvv{
+        width: 90vw;
+    }
+    .LapHid{
+        display: flex;
+    }
+    .WatchRight,
+    .ShoeRight{
+        width: 70%;
+    }
+    .WatchLeft,
+    .WatchRight,
+    .ShoeRight{
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }nav ul li{
+        height: 65px;
+    }
+    .ProdRed li{
+        height: 65px;
+    }
+}
